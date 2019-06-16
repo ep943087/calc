@@ -1,0 +1,31 @@
+body{
+	background-color:#5CDB95;
+	color: #EDF5E1;
+}
+
+header nav a{
+	background-color:#379683;
+	padding:10px 5px 10px 5px;
+}
+h3{
+	margin:center;
+	width:50%;
+	border:3px solid #EDF5E1;
+	padding:10px;
+}
+
+h1{
+	text-align:center;
+}
+
+form{
+	background-color: #379683;
+	color:#EDF5E1;
+	margin:auto;
+}
+
+.home_page_message{
+	background-color:#379683;
+	color:#EDF5E1;
+	text-align:center;
+}

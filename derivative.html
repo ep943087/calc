@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset = "utf-8">
+		<title>Derivative Calculator</title>
+		<link href="main.css" rel = "stylesheet" /> 
+		<script src="derivative.js"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<h3>Calculators: </h3>
+				<a href="index.html">Home Page</a>
+				<a href="basic_calculator.html">Basic Calculator</a>
+				<a href="random_sorting.html">Random/Sorting Calculator</a>
+				<a href="battle_ship.html">Battleship Game</a>	
+				<a href="derivative.html">Derivative Calculator</a>	
+				<a href="converter.html">Converter Calculator</a>			
+			</nav>
+		</header>
+
+		<article>
+			<h2>Rules for Derivative Calculator</h2>
+				<p>
+					Only submit polynomials, no multiplications. An example: x^2 + 3x - 12
+				</p>
+		</article>
+		<form>
+		<textarea id="function" value="y =  " rows="10"cols="30"></textarea>
+		<button type="button" onclick="deriv(1)">Calculate</button>
+		<textarea id="derivative" rows="10"cols="30"></textarea>
+		<button type="button" onclick="deriv(2)">Next Derivative</button>
+		</form>
+
+	</body>
+
+
+</html>

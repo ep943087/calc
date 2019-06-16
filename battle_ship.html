@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset = "utf-8">
+		<title>Battle Ship Game</title>
+		<link href="main.css" rel = "stylesheet" />
+
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<h3>Calculators: </h3>
+				<a href="index.html">Home Page</a>
+				<a href="basic_calculator.html">Basic Calculator</a>
+				<a href="random_sorting.html">Random/Sorting Calculator</a>
+				<a href="battle_ship.html">Battleship Game</a>
+				<a href="derivative.html">Derivative Calculator</a>
+				<a href="converter.html">Converter Calculator</a>			
+			</nav>
+		</header>
+
+		<form>
+			<div><br><br>BattleShip Game</div>
+			<span>	<textarea id="player_guesses" rows="15"cols="40"></textarea>
+				<span type="text" id="playerShipsLeft"></span>
+				<span type="text" value="   "></span>
+				<span type="text" id="computerShipsLeft" float="right"></span></span>
+			<div><textarea id ="player_ship" rows="15"cols="40"></textarea></div>
+			
+			
+			
+			<span>
+				<input type="text" id="player_guess" value="Enter your coordinates here">
+				<button type="button" onclick="pg.enterGuesses(c,p)">Enter Coordinates</button>
+				<button type = "button" onclick= "cg.guess(p,p.player_turn)">Computer Guess</button>
+			</span>
+		</form>
+
+	</body>
+
+	<script src="battle_ship.js"></script>
+
+</html>

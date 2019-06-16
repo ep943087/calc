@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset = "utf-8">
+		<title>Conversion Page</title>
+		<link href="main.css" rel = "stylesheet" /> 
+		<script src="converter.js"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<h3>Calculators: </h3>
+				<a href="index.html">Home Page</a>
+				<a href="basic_calculator.html">Basic Calculator</a>
+				<a href="random_sorting.html">Random/Sorting Calculator</a>
+				<a href="battle_ship.html">Battleship Game</a>	
+				<a href="derivative.html">Derivative Calculator</a>	
+				<a href="converter.html">Converter Calculator</a>				
+			</nav>
+		</header>
+
+		<form>	
+			<h3>Length Converter Thingy</h3>
+
+			<input type="text" id="before"></input>
+			<select id="unit1">
+				<ul>
+					<li><option value="meter">Meter</option></li>
+					<li><option value="kilometer">Kilometer</option></li>
+					<li><option value="centimeter">Centimeter</option></li>
+					<li><option value="millimeter">Millimeter</option></li>
+					<li><option value="micrometer">Micrometer</option></li>
+					<li><option value="nanometer">Nanometer</option></li>
+					<li><option value="mile">Mile</option></li>
+					<li><option value="yard">Yard</option></li>
+					<li><option value="foot">Foot</option></li>
+					<li><option value="inch">Inch</option></li>
+					<li><option value="lightYear">Light Year</option></li>
+				</ul>
+			</select>
+			<textarea id="after" rows="1">Don't type anything here</textarea>
+			<select id="unit2">
+				<ul>					
+					<li><option value="meter">Meter</option></li>
+					<li><option value="kilometer">Kilometer</option></li>
+					<li><option value="centimeter">Centimeter</option></li>
+					<li><option value="millimeter">Millimeter</option></li>
+					<li><option value="micrometer">Micrometer</option></li>
+					<li><option value="nanometer">Nanometer</option></li>
+					<li><option value="mile">Mile</option></li>
+					<li><option value="yard">Yard</option></li>
+					<li><option value="foot">Foot</option></li>
+					<li><option value="inch">Inch</option></li>
+					<li><option value="lightYear">Light Year</option></li>
+				</ul>
+			</select>
+			<button type="button" onclick="lengthConvert()">Convert</button>			
+
+		</form>
+
+		<form>	
+			<h3>Time Converter Thingy</h3>
+
+			<input type="text" id="before2"></input>
+			<select id="t-unit1">
+				<ul>
+					<li><option value="nanosecond">Nanosecond</option></li>
+					<li><option value="microsecond">Microsecond</option></li>
+					<li><option value="millisecond">Millisecond</option></li>
+					<li><option value="second">Second</option></li>
+					<li><option value="minute">Minute</option></li>
+					<li><option value="hour">Hour</option></li>
+					<li><option value="day">Day</option></li>
+					<li><option value="week">Week</option></li>
+					<li><option value="month">Month</option></li>
+					<li><option value="year">Year</option></li>
+					<li><option value="decade">Decade</option></li>
+					<li><option value="century">Century</option></li>
+				</ul>
+			</select>
+			<textarea id="after2" rows="1">Don't type anything here</textarea>
+			<select id="t-unit2">
+				<ul>					
+					<li><option value="nanosecond">Nanosecond</option></li>
+					<li><option value="microsecond">Microsecond</option></li>
+					<li><option value="millisecond">Millisecond</option></li>
+					<li><option value="second">Second</option></li>
+					<li><option value="minute">Minute</option></li>
+					<li><option value="hour">Hour</option></li>
+					<li><option value="day">Day</option></li>
+					<li><option value="week">Week</option></li>
+					<li><option value="month">Month</option></li>
+					<li><option value="year">Year</option></li>
+					<li><option value="decade">Decade</option></li>
+					<li><option value="century">Century</option></li>
+				</ul>
+			</select>
+			<button type="button" onclick="timeConvert()">Convert</button>			
+
+		</form>
+
+	</body>
+
+</html>
